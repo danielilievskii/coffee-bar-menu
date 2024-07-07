@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|d:\\desktop\\koko\\finki\\semestar 4\\vp\\project\\coffee-bar-menu\\pdfgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\pdfgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|solutionrelative:pdfgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|solutionrelative:form1.panels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\form1.barmenuitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|solutionrelative:form1.barmenuitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\barmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|solutionrelative:barmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|d:\\desktop\\koko\\finki\\semestar 4\\vp\\project\\coffee-bar-menu\\form1.barmenuitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|solutionrelative:form1.barmenuitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.BarMenuItemData.cs",
+              "DocumentMoniker": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.BarMenuItemData.cs",
+              "RelativeDocumentMoniker": "Form1.BarMenuItemData.cs",
+              "ToolTip": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.BarMenuItemData.cs",
+              "RelativeToolTip": "Form1.BarMenuItemData.cs",
+              "ViewState": "AQIAAD8BAAAAAAAAAAAqwPwBAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T15:24:21.231Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,22 +57,9 @@
               "RelativeDocumentMoniker": "PDFGeneration.cs",
               "ToolTip": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\PDFGeneration.cs",
               "RelativeToolTip": "PDFGeneration.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAcwDEAAAAoAAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAowE4AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T15:24:28.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.BarMenuItemData.cs",
-              "DocumentMoniker": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.BarMenuItemData.cs",
-              "RelativeDocumentMoniker": "Form1.BarMenuItemData.cs",
-              "ToolTip": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.BarMenuItemData.cs",
-              "RelativeToolTip": "Form1.BarMenuItemData.cs",
-              "ViewState": "AQIAAF8BAAAAAAAAAAAswJ8BAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T15:24:21.231Z",
               "EditorCaption": ""
             },
             {
@@ -70,14 +70,14 @@
               "RelativeDocumentMoniker": "Form1.Panels.cs",
               "ToolTip": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.Panels.cs",
               "RelativeToolTip": "Form1.Panels.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAcwBYBAAAuAAAA",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAAALcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T15:24:25.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "BarMenuItem.cs",
               "DocumentMoniker": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\BarMenuItem.cs",
               "RelativeDocumentMoniker": "BarMenuItem.cs",
@@ -98,8 +98,7 @@
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T15:24:23.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T15:24:23.775Z"
             },
             {
               "$type": "Document",
@@ -110,8 +109,7 @@
               "ToolTip": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T18:48:12.553Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-05T18:48:12.553Z"
             }
           ]
         }

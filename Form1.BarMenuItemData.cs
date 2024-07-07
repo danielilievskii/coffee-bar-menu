@@ -456,45 +456,54 @@ namespace coffe_bar_demo
 
 				if (selectedItem != null)
 				{
-					// Check if the image is used by more than one item
-					bool isImageUsedByOthers = IsImageUsedByOtherItems(selectedItem.ImagePath);
+					// Ask for confirmation
+					var confirmResult = MessageBox.Show($"Are you sure you want to delete the item '{selectedItemName}'?",
+														 "Confirm Delete",
+														 MessageBoxButtons.OKCancel,
+														 MessageBoxIcon.Warning);
 
-					// Remove the item
-					items.Remove(selectedItem);
-
-					if (!isImageUsedByOthers)
+					if (confirmResult == DialogResult.OK)
 					{
-						// Delete the image file if it's not used by any other items
-						string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, selectedItem.ImagePath);
-						if (File.Exists(imagePath))
-						{
-							File.Delete(imagePath);
-						}
+						// Check if the image is used by more than one item
+						bool isImageUsedByOthers = IsImageUsedByOtherItems(selectedItem.ImagePath);
 
-						// Remove the image from the image list and image path index map
-						if (imagePathIndexMap.ContainsKey(selectedItem.ImagePath))
-						{
-							int imageIndex = imagePathIndexMap[selectedItem.ImagePath];
-							imageList.Images.RemoveAt(imageIndex);
-							imagePathIndexMap.Remove(selectedItem.ImagePath);
+						// Remove the item
+						items.Remove(selectedItem);
 
-							// Update indices in the map
-							foreach (var key in imagePathIndexMap.Keys.ToList())
+						if (!isImageUsedByOthers)
+						{
+							// Delete the image file if it's not used by any other items
+							string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, selectedItem.ImagePath);
+							if (File.Exists(imagePath))
 							{
-								if (imagePathIndexMap[key] > imageIndex)
+								File.Delete(imagePath);
+							}
+
+							// Remove the image from the image list and image path index map
+							if (imagePathIndexMap.ContainsKey(selectedItem.ImagePath))
+							{
+								int imageIndex = imagePathIndexMap[selectedItem.ImagePath];
+								imageList.Images.RemoveAt(imageIndex);
+								imagePathIndexMap.Remove(selectedItem.ImagePath);
+
+								// Update indices in the map
+								foreach (var key in imagePathIndexMap.Keys.ToList())
 								{
-									imagePathIndexMap[key]--;
+									if (imagePathIndexMap[key] > imageIndex)
+									{
+										imagePathIndexMap[key]--;
+									}
 								}
 							}
 						}
+
+						// Save the updated list
+						SaveMenuItemData();
+
+						// Update the list views
+						UpdateAdminDataGridView();
+						UpdateMenuListView();
 					}
-
-					// Save the updated list
-					SaveMenuItemData();
-
-					// Update the list views
-					UpdateAdminDataGridView();
-					UpdateMenuListView();
 				}
 			}
 			else
