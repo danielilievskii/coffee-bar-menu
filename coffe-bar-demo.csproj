@@ -150,6 +150,12 @@
     <Compile Include="Form1.Panels.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="PDFGeneration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDFGeneration.Designer.cs">
+      <DependentUpon>PDFGeneration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -177,14 +183,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Images\capuccino.jpg" />
-    <Content Include="Images\coffee.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Images\espresso.jpg" />
-    <Content Include="Images\latte.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

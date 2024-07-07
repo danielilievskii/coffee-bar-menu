@@ -1,13 +1,5 @@
-﻿using iText.IO.Image;
-using iText.Kernel.Pdf.Canvas.Draw;
-using iText.Kernel.Pdf;
-using iText.Layout.Element;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.IO;
+﻿using System.Collections.Generic;
 using System.Windows.Forms;
-using iText.Layout;
 using coffee_bar_demo;
 
 namespace coffe_bar_demo
@@ -21,14 +13,15 @@ namespace coffe_bar_demo
         public Form1()
         {
             InitializeComponent();
-            InitializeBarMenuData();
+			InitializeBarMenuData();
             InitializePanels();
             InitializeButtons();
             ShowPanel(panelHome);
             UpdateAdminDataGridView(); 
-            UpdateMenuListView(); 
-        }
-
-       
+            UpdateMenuListView();
+            
+			this.KeyPreview = true;
+			this.KeyDown += new KeyEventHandler(Form_KeyDown);
+		}
      }
 }

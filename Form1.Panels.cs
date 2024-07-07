@@ -1,11 +1,10 @@
 ﻿using coffee_bar_demo;
 using System;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-
-
 
 namespace coffe_bar_demo
 {
@@ -45,7 +44,7 @@ namespace coffe_bar_demo
 
         private void InitializeButtons()
         {
-            buttonOpenMenu = new System.Windows.Forms.Button
+            buttonOpenMenu = new Button
             {
                 Text = "Menu",
                 Size = new Size(150, 50),
@@ -60,9 +59,9 @@ namespace coffe_bar_demo
                 Cursor = Cursors.Hand,
             };
 
-            buttonAdmin = new System.Windows.Forms.Button
+            buttonAdmin = new Button
             {
-                Text = "Admin Panel",
+                Text = "Admin",
                 Size = new Size(150, 50),
                 Location = new Point((panelHome.Width - 150) / 2, (panelHome.Height - 50) / 2 + 40),
                 BackColor = Color.FromArgb(175, 143, 111),
@@ -95,7 +94,7 @@ namespace coffe_bar_demo
             ShowPanel(panelHome);
         }
 
-        private void InitializeMenuPanel()
+		private void InitializeMenuPanel()
         {
             panelMenu = new Panel { Dock = DockStyle.Fill };
             Controls.Add(panelMenu);
@@ -113,20 +112,18 @@ namespace coffe_bar_demo
             TabPage tabPageDessert = new TabPage("Dessert");
 
             // Create ListView for each TabPage
-            listViewCoffee = new System.Windows.Forms.ListView
+            listViewCoffee = new ListView
             {
                 Dock = DockStyle.Fill,
                 LargeImageList = imageList,
                 View = View.Tile,
                 BackColor = Color.SeaShell,
                 Font = new Font("Segoe UI", 10, FontStyle.Regular),
-                TileSize = new Size(250, 170)
+                TileSize = new Size(270, 170)
             };            
             listViewCoffee.Columns.Add("Name", 200, HorizontalAlignment.Left);
             listViewCoffee.Columns.Add("Description", 400, HorizontalAlignment.Left);
             listViewCoffee.Columns.Add("Price", 80, HorizontalAlignment.Left);
-
-            
 
             listViewNonCoffee = new ListView
             {
@@ -135,7 +132,7 @@ namespace coffe_bar_demo
                 View = View.Tile,
                 BackColor = Color.SeaShell,
                 Font = new Font("Segoe UI", 10, FontStyle.Regular),
-                 TileSize = new Size(250, 170)
+                TileSize = new Size(270, 170)
             };
             listViewNonCoffee.Columns.Add("Name", 200, HorizontalAlignment.Left);
             listViewNonCoffee.Columns.Add("Description", 400, HorizontalAlignment.Left);
@@ -148,7 +145,7 @@ namespace coffe_bar_demo
                 View = View.Tile,
                 BackColor = Color.SeaShell,
                 Font = new Font("Segoe UI", 10, FontStyle.Regular),
-                 TileSize = new Size(250, 170)
+                TileSize = new Size(270, 170)
             };
             listViewDessert.Columns.Add("Name", 200, HorizontalAlignment.Left);
             listViewDessert.Columns.Add("Description", 400, HorizontalAlignment.Left);
@@ -184,7 +181,19 @@ namespace coffe_bar_demo
             comboBoxSort.SelectedIndexChanged += (s, e) => ApplySort(comboBoxSort.SelectedIndex);
             panelMenu.Controls.Add(comboBoxSort);
 
-            // TUKA KOPCE
+            Button buttonGeneratePDF = new Button
+            {
+                Text = "Generate PDF",
+                Size = new Size(150, 40),
+                Location = new Point(170, panelMenu.Height - 60), // Adjusted to the bottom
+                BackColor = Color.FromArgb(175, 143, 111),
+                ForeColor = Color.White,
+                Font = new Font("Segoe UI", 10, FontStyle.Bold),
+                FlatStyle = FlatStyle.Flat,
+                FlatAppearance = { BorderSize = 1, BorderColor = Color.White },
+            };
+            buttonGeneratePDF.Click += buttonGeneratePDF_Click;
+            panelMenu.Controls.Add(buttonGeneratePDF);
 
             // Create and configure "Exit" button
             Button buttonExitMenu = new Button
@@ -203,7 +212,7 @@ namespace coffe_bar_demo
         }
 
 
-        private void ApplySort(int sortIndex)
+        public void ApplySort(int sortIndex)
         {
             // Sort items based on sortIndex
             switch (sortIndex)
@@ -281,8 +290,6 @@ namespace coffe_bar_demo
             listViewCoffee.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
         }
 
-
-
         private void InitializeAdminPanel()
         {
             panelAdmin = new Panel
@@ -304,6 +311,7 @@ namespace coffe_bar_demo
                 Font = new Font("Segoe UI", 10, FontStyle.Regular),
                 BackgroundColor = Color.SeaShell,
             };
+
             dataGridViewAdmin.Columns.Add("Name", "Name");
             dataGridViewAdmin.Columns.Add("Description", "Description");
             dataGridViewAdmin.Columns.Add("Image Path", "Image Path");
@@ -312,7 +320,7 @@ namespace coffe_bar_demo
             dataGridViewAdmin.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewAdmin.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
 
-            foreach (var barMenuItem in items)
+			foreach (var barMenuItem in items)
             {
                 dataGridViewAdmin.Rows.Add(barMenuItem.Name, barMenuItem.Description, barMenuItem.ImagePath,
                                             barMenuItem.Price.ToString("C"), barMenuItem.Category.ToString());
@@ -362,12 +370,12 @@ namespace coffe_bar_demo
                     {
                         EditBarMenuItem(selectedItemObject);
                     }
-                    else
-                    {
-                        MessageBox.Show("Please select an item to edit.");
-                    }
                 }
-            };
+				else
+				{
+					MessageBox.Show("Please select an item to edit.");
+				}
+			};
             panelAdmin.Controls.Add(buttonEditItem);
 
             Button buttonDeleteItem = new Button
@@ -415,5 +423,23 @@ namespace coffe_bar_demo
                                             barMenuItem.Price.ToString("C"), barMenuItem.Category.ToString());
             }
         }
-    }
+
+		private void Form_KeyDown(object sender, KeyEventArgs e)
+		{
+			if (e.KeyCode == Keys.Escape)
+			{
+				if (panelMenu.Visible)
+				{
+					ExitMenu();
+				}
+				else if (panelAdmin.Visible)
+				{
+					ExitMenu();
+				}
+			} else if (e.KeyCode == Keys.Delete)
+            {
+				DeleteSelectedBarMenuItem();
+			}
+		}
+	}
 }

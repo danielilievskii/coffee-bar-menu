@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\",
+  "WorkspaceRootPath": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|e:\\ssd proekti\\finki (vizuelno programiranje)\\coffe-bar-demo\\form1.panels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|d:\\desktop\\koko\\finki\\semestar 4\\vp\\project\\coffee-bar-menu\\pdfgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|solutionrelative:pdfgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\form1.panels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|solutionrelative:form1.panels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\barmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|solutionrelative:barmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\form1.barmenuitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\form1.barmenuitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|solutionrelative:form1.barmenuitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\barmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|solutionrelative:barmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{98949116-6693-48F4-8B24-76E5D00600BC}|coffe-bar-demo.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T17:13:51.702Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.Panels.cs",
-              "DocumentMoniker": "E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\Form1.Panels.cs",
-              "RelativeDocumentMoniker": "Form1.Panels.cs",
-              "ToolTip": "E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\Form1.Panels.cs",
-              "RelativeToolTip": "Form1.Panels.cs",
-              "ViewState": "AQIAALEAAAAAAAAAAAAiwMoAAAAJAAAA",
+              "Title": "PDFGeneration.cs",
+              "DocumentMoniker": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\PDFGeneration.cs",
+              "RelativeDocumentMoniker": "PDFGeneration.cs",
+              "ToolTip": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\PDFGeneration.cs",
+              "RelativeToolTip": "PDFGeneration.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAcwDEAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T16:42:21.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.BarMenuItemData.cs",
-              "DocumentMoniker": "E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\Form1.BarMenuItemData.cs",
-              "RelativeDocumentMoniker": "Form1.BarMenuItemData.cs",
-              "ToolTip": "E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\Form1.BarMenuItemData.cs",
-              "RelativeToolTip": "Form1.BarMenuItemData.cs",
-              "ViewState": "AQIAAL8BAAAAAAAAAAAiwNIBAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T16:36:39.62Z",
+              "WhenOpened": "2024-07-05T15:24:28.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BarMenuItem.cs",
-              "DocumentMoniker": "E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\BarMenuItem.cs",
-              "RelativeDocumentMoniker": "BarMenuItem.cs",
-              "ToolTip": "E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\BarMenuItem.cs",
-              "RelativeToolTip": "BarMenuItem.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Title": "Form1.BarMenuItemData.cs",
+              "DocumentMoniker": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.BarMenuItemData.cs",
+              "RelativeDocumentMoniker": "Form1.BarMenuItemData.cs",
+              "ToolTip": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.BarMenuItemData.cs",
+              "RelativeToolTip": "Form1.BarMenuItemData.cs",
+              "ViewState": "AQIAAF8BAAAAAAAAAAAswJ8BAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T15:40:15.825Z",
+              "WhenOpened": "2024-07-05T15:24:21.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Panels.cs",
+              "DocumentMoniker": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.Panels.cs",
+              "RelativeDocumentMoniker": "Form1.Panels.cs",
+              "ToolTip": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.Panels.cs",
+              "RelativeToolTip": "Form1.Panels.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAcwBYBAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T15:24:25.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BarMenuItem.cs",
+              "DocumentMoniker": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\BarMenuItem.cs",
+              "RelativeDocumentMoniker": "BarMenuItem.cs",
+              "ToolTip": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\BarMenuItem.cs",
+              "RelativeToolTip": "BarMenuItem.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T14:44:07.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\Form1.cs",
+              "DocumentMoniker": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\SSD proekti\\FINKI (vizuelno programiranje)\\coffe-bar-demo\\Form1.cs",
+              "ToolTip": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T14:15:04.564Z",
+              "WhenOpened": "2024-07-05T15:24:23.775Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Desktop\\KOKO\\FINKI\\Semestar 4\\VP\\Project\\coffee-bar-menu\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T18:48:12.553Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
